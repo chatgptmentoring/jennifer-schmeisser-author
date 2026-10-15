@@ -1,0 +1,57 @@
+<div class="modal" id="modal-notify" role="dialog" aria-modal="true" aria-labelledby="notify-title" hidden>
+  <div class="modal-backdrop" data-modal-close></div>
+  <div class="modal-dialog">
+    <button class="modal-close" type="button" aria-label="Close" data-modal-close><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+    <div class="modal-book">
+      <img src="assets/img/book-cover-600.webp" alt="" width="84" height="126">
+      <div>
+        <span class="badge"><svg class="icon" aria-hidden="true"><use href="#i-bell"/></svg> Coming soon to Amazon</span>
+        <h3 id="notify-title" class="mt-2" style="margin-bottom:.2em">Be the first to know</h3>
+        <p class="muted small mb-0">When the Blueprint Burned is almost here. Leave your email and Jennifer will send you the Amazon link on launch day.</p>
+      </div>
+    </div>
+    <form class="form" data-demo-form>
+      <div class="form-fields form">
+        <div class="field">
+          <label for="notify-name">First name</label>
+          <input id="notify-name" name="name" autocomplete="given-name" placeholder="Your first name">
+        </div>
+        <div class="field">
+          <label for="notify-email">Email</label>
+          <input id="notify-email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
+        </div>
+        <button class="btn btn-gold btn-block" type="submit"><svg class="icon" aria-hidden="true"><use href="#i-bell"/></svg> Notify me at launch</button>
+        <p class="demo-note">No spam, ever. Just the good stuff (and maybe a funny story).</p>
+      </div>
+      <div class="form-success">
+        <div class="big">🦄</div>
+        <h3>You're on the list!</h3>
+        <p class="muted">Thank you for being here. Watch your inbox on launch day.</p>
+        <p class="demo-note"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"/></svg> Demo preview: on the live site this connects to Jennifer's mailing list.</p>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="modal" id="modal-thanks" role="dialog" aria-modal="true" aria-labelledby="thanks-title" hidden>
+  <div class="modal-backdrop" data-modal-close></div>
+  <div class="modal-dialog center">
+    <button class="modal-close" type="button" aria-label="Close" data-modal-close><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+    <div style="font-size:2.6rem;line-height:1">💛</div>
+    <h3 id="thanks-title" class="mt-2">Enjoy your free guide!</h3>
+    <p class="muted">Your download has started. Here's the secret, though: the guides are the <em>how</em>. The book is the <em>why</em>. It holds the stories, the laughter, and the full Unicorn Survival Toolkit.</p>
+    <div class="modal-book" style="justify-content:center;text-align:left;background:var(--cream-2);padding:14px;border-radius:16px">
+      <img src="assets/img/book-cover-600.webp" alt="" width="84" height="126">
+      <div>
+        <b style="font-family:var(--font-display);font-size:1.15rem;color:var(--ink)">When the Blueprint Burned</b>
+        <p class="small muted mb-0">17 chapters of real life, Sparkle &amp; Sanity tips, and Micro-Missions you can do today.</p>
+      </div>
+    </div>
+    <div class="cta-row" style="justify-content:center">
+      <a class="btn btn-primary" href="book.html#get-the-book" data-buy><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg> Get the Book</a>
+      <button class="btn btn-ghost" type="button" data-modal-close>Maybe later</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>

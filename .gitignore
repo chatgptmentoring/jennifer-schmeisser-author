@@ -1,0 +1,6 @@
+__pycache__/
+*.raw.pdf
+docs/_shot.html
+.claude/
+.DS_Store
+Thumbs.db
